@@ -305,8 +305,7 @@ for i in range(1):
         Test = test_data
 
     for j in range(1):
-        path_excel = 'E:\\experiment_result\\' + dataset_list[dataset] + '_DCFA_' + str(int(time.time())) + str(int(random.uniform(100,900))) + '.xls'
+        path_excel = 'experiment_result/' + dataset_list[dataset] + '_DCFA_' + str(int(time.time())) + str(int(random.uniform(100,900))) + '.xls'
         save_parameter()
         print_parameter()
         train_DCFA(eta)
-
